@@ -1,7 +1,7 @@
 # Curso Banco de Dados SQL Server - DevDojo
 Este repositório tem o propósito de se tornar um material para consultas posteriores, conteúdos do básico ao avançando sobre SQL, totalizando mais de 100 aulas.
 
-##Proposta
+## Proposta
 O curso mais bolado de Banco de Dados da Internet brasileira. 
 Banco de Dados Boladão é o curso exclusivo de banco de dados e SQL do DevDojo que vai te deixar preparado para o mercado de trabalho.
 Desde a instalação do banco Microsoft SQL Server em diferentes sistemas operacionais, 
