@@ -18,5 +18,6 @@ até a criação de queries complexas e funções exclusivas. Praticamente tudo 
 7. Instação do DBeaver Ubuntu
 8. Instalação MSSQL no Docker (Ubuntu)
 9. SQL Instrução SELECT
+10.SQL Instrução SELECT(TOP, DISTINCT, ORDER BY)
 
 
