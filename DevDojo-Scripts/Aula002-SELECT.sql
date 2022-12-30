@@ -34,7 +34,7 @@ AND MiddleName = 'LRRGRG';
 -- ------------------------------------------------------------------------------
 -- ORDENACAO DESC = DECRESCENTE
 -- ORDENACAO ASC = ASCENDENTE 
--- TOP = determina a quantidade de linha a ser buscada
+-- TOP = TRARA OS REGISTROS INDICADO NO NUMERO
 -- AS - ALIASES = APELIDO DA COLUNA
 
 SELECT --TOP 1000 
@@ -52,18 +52,16 @@ ORDER BY [PRIMEIRO NOME] ,
 -- ------------------------------------------------------------------------------
 -- DISTINCT = REMOVE DUPLICADOS
 
-SELECT --DISTINCT
-     --TOP 1000 
-     -- BusinessEntityID AS [ID PESSOA],
-     -- PersonType       AS [TIP PESSOA],
-     -- Title            AS [TITULO],
-      FirstName          --AS [PRIMEIRO NOME]
-      MiddleName      -- AS [NOME DO MEIO],
-     -- LastName         AS [ULTIMO NOME]
+SELECT 
+    -- DISTINCT
+    -- TOP 1000 
+      FirstName,          
+      MiddleName,      
+      LastName        
 FROM Person.Person
---WHERE Title = 'Mr.'  -- WHERE NAO CONHECE O NOME DO APELIDO DA COLUNA
+WHERE Title = 'Mr.'  
+AND MiddleName = 'M.'
 ORDER BY FirstName, 
          MiddleName
-        -- [ULTIMO NOME] DESC;
 
 -- ------------------------------------------------------------------------------
