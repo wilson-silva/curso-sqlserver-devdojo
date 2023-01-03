@@ -1,12 +1,11 @@
-SELECT TOP 100 * 
+SELECT TOP 10 * 
 FROM Person.Person
 ORDER BY FirstName, -- DEFAULT ASC
          MiddleName DESC,
          LastName
 
 -- ------------------------------------------------------------------------------
-SELECT --TOP 100 
-        BusinessEntityID,
+SELECT  BusinessEntityID,
         PersonType,
         Title,
         FirstName,
@@ -15,7 +14,6 @@ SELECT --TOP 100
         ModifiedDate
 
 FROM Person.Person
---WHERE MiddleName = 'N'
 ORDER BY BusinessEntityID
 OFFSET 50 ROWS -- IGNORE (PULAR) QUANTIDADE DE LINHAS
 --ORDER BY 4,5,6 -- EVITAR AO MAXIMO, NAO E UMA BOA PRATICA
