@@ -21,5 +21,6 @@ até a criação de queries complexas e funções exclusivas. Praticamente tudo 
 10. SQL Instrução SELECT(TOP, DISTINCT, ORDER BY)
 11. SQL Instrução SELECT(ORDER BY, OFFSET FETCH)
 12. Operadores Aritméticos
+13. Tipos de Dados
 
 
