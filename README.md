@@ -23,4 +23,4 @@ até a criação de queries complexas e funções exclusivas. Praticamente tudo 
 12. Operadores Aritméticos
 13. Tipos de Dados
 14. Operadores de Comparação
-
+15. Operadores Lógicos
